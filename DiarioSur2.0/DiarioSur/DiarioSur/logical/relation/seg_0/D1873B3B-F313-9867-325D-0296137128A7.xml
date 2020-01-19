@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_9" directorySegmentName="seg_0" id="D1873B3B-F313-9867-325D-0296137128A7">
+<createdBy>Antonio</createdBy>
+<createdTime>2016-11-14 17:18:55 UTC</createdTime>
+<ownerDesignName>DiarioSur</ownerDesignName>
+<engineerTo>
+<item key="C39EF84B-C518-DB08-17B9-664D5BFF36CC" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<nameOnSource>Es accedido por</nameOnSource>
+<nameOnTarget>Accede a</nameOnTarget>
+<optionalSource>true</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>BFA97504-A9B3-4B79-8986-2924F0E0E396</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>5AAC1E5E-55DC-8D64-1844-35087F3C1E12</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

@@ -1,0 +1,87 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="1478EE25-ADF1-1CF2-0E29-457D6674B760" name="TIPO_EVENTO">
+<createdBy>Antonio</createdBy>
+<createdTime>2016-12-17 18:01:47 UTC</createdTime>
+<ownerDesignName>DiarioSur</ownerDesignName>
+<engineerTo>
+<item key="C39EF84B-C518-DB08-17B9-664D5BFF36CC" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Codigo" id="F7C840F0-085A-3D34-BE13-9920088FC27E">
+<createdBy>Antonio</createdBy>
+<createdTime>2016-12-17 18:02:05 UTC</createdTime>
+<ownerDesignName>DiarioSur</ownerDesignName>
+<engineerTo>
+<item key="C39EF84B-C518-DB08-17B9-664D5BFF36CC" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Nombre" id="114EE948-5277-3878-2A57-0229EFDF23F4">
+<createdBy>Antonio</createdBy>
+<createdTime>2016-12-17 18:02:35 UTC</createdTime>
+<ownerDesignName>DiarioSur</ownerDesignName>
+<engineerTo>
+<item key="C39EF84B-C518-DB08-17B9-664D5BFF36CC" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Descripción" id="BBA96C5B-55CD-DF5F-26F4-44A66522C088">
+<createdBy>Antonio</createdBy>
+<createdTime>2016-12-17 18:03:38 UTC</createdTime>
+<ownerDesignName>DiarioSur</ownerDesignName>
+<engineerTo>
+<item key="C39EF84B-C518-DB08-17B9-664D5BFF36CC" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Code" id="A4BF1B71-C2C9-DCE1-86AE-540A04A16A53">
+<createdBy>Antonio</createdBy>
+<createdTime>2016-12-17 20:22:46 UTC</createdTime>
+<generatorID>9BCC1DB4-61E9-4584-BE1B-B51DDC59423A</generatorID>
+<ownerDesignName>DiarioSur</ownerDesignName>
+<engineerTo>
+<item key="C39EF84B-C518-DB08-17B9-664D5BFF36CC" value="true"/>
+</engineerTo>
+<referedAttribute>D1D62CC8-5CA0-9FD3-97DB-99F40C3478E2</referedAttribute>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="58F2B17D-62C9-9748-301F-391FBD69930D" name="TIPO_EVENTO PK">
+<createdBy>Antonio</createdBy>
+<createdTime>2016-12-17 18:02:13 UTC</createdTime>
+<ownerDesignName>DiarioSur</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="C39EF84B-C518-DB08-17B9-664D5BFF36CC" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>F7C840F0-085A-3D34-BE13-9920088FC27E</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

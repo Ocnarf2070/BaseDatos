@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="DiarioSur" id="B175AFC1-EE28-E7DD-5A24-6BB6B426F160" version="3.5">
+<createdBy>Davih_Polla</createdBy>
+<createdTime>2016-11-12 18:41:41 UTC</createdTime>
+<ownerDesignName>DiarioSur</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>B175AFC1-EE28-E7DD-5A24-6BB6B426F160</designId>
+</OSDM_Design>

@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="PUBLICACIONv2" directorySegmentName="seg_0" id="53921FFD-B2F2-B86D-4FE7-F57830E34924">
+<createdBy>Davih_Polla</createdBy>
+<createdTime>2016-11-12 19:43:38 UTC</createdTime>
+<ownerDesignName>DiarioSur</ownerDesignName>
+<engineerTo>
+<item key="C39EF84B-C518-DB08-17B9-664D5BFF36CC" value="true"/>
+</engineerTo>
+<sourcePk>6113DC72-7C5C-AED1-0484-2C92BD14E1E4</sourcePk>
+<identifying>false</identifying>
+<nameOnSource>Publica</nameOnSource>
+<nameOnTarget>Publicado</nameOnTarget>
+<optionalSource>true</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>5AAC1E5E-55DC-8D64-1844-35087F3C1E12</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>BFA97504-A9B3-4B79-8986-2924F0E0E396</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

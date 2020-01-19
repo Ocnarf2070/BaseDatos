@@ -1,0 +1,85 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="5B0A585E-C193-66CD-9235-400F58D14761" name="PERIODISTA">
+<createdBy>Davih_Polla</createdBy>
+<createdTime>2016-12-18 16:22:18 UTC</createdTime>
+<generatorID>0CB279E1-7390-C275-9F4A-1905ABE6079D</generatorID>
+<ownerDesignName>DiarioSur</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Codigo" id="B3F3BA05-0BAC-5698-E7F6-9786499E0C47">
+<createdBy>Davih_Polla</createdBy>
+<createdTime>2016-12-18 16:22:18 UTC</createdTime>
+<generatorID>61083971-4CC6-3A71-342A-E05A53918122</generatorID>
+<ownerDesignName>DiarioSur</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Nombre" id="18495691-13A0-CD06-74A9-1EE072756919">
+<createdBy>Davih_Polla</createdBy>
+<createdTime>2016-12-18 16:22:18 UTC</createdTime>
+<generatorID>8CDB806B-8E55-7C6A-7424-136A1B389CFD</generatorID>
+<ownerDesignName>DiarioSur</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Informacion" id="F2A49F71-8861-EC9A-EE11-6502B549A231">
+<createdBy>Davih_Polla</createdBy>
+<createdTime>2016-12-18 16:22:18 UTC</createdTime>
+<generatorID>0F62AD84-DB16-2CB6-74FC-6C24CCE2B9D9</generatorID>
+<ownerDesignName>DiarioSur</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Password" id="C464F60B-F12F-8773-B137-464E9EDB0382">
+<createdBy>Davih_Polla</createdBy>
+<createdTime>2016-12-18 16:22:18 UTC</createdTime>
+<generatorID>3DA58AFC-909E-7860-3E8B-FF639AF1B230</generatorID>
+<ownerDesignName>DiarioSur</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="96AF8A2C-1BBB-A355-2C7C-E3C6C0680D99" name="PERIODISTA_PK">
+<createdBy>Davih_Polla</createdBy>
+<createdTime>2016-12-18 16:22:18 UTC</createdTime>
+<generatorID>45AB18B8-1C54-3E14-6927-BBE5844B2502</generatorID>
+<ownerDesignName>DiarioSur</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B3F3BA05-0BAC-5698-E7F6-9786499E0C47"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="850EA791-E80E-316D-1028-36D514109E5F" name="PERIODISTA_Nombre_UN">
+<createdBy>Davih_Polla</createdBy>
+<createdTime>2016-12-18 16:22:18 UTC</createdTime>
+<generatorID>429382AE-A60E-7EE0-5C97-0F160BEBE812</generatorID>
+<ownerDesignName>DiarioSur</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="18495691-13A0-CD06-74A9-1EE072756919"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

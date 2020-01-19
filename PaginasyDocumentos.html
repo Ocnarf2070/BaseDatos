@@ -1,0 +1,92 @@
+	
+<center>
+  <p> 
+  <table border="0" cellpadding="0" cellspacing="0">
+    <tbody><tr> 
+      <td style="border: medium none ; padding: 0cm 5.4pt; background: rgb(12, 12, 12) none repeat scroll 0% 0%; width: 351.4pt; -moz-background-clip: -moz-initial; -moz-background-origin: -moz-initial; -moz-background-inline-policy: -moz-initial;" valign="top" width="351"> 
+        <p align="right"><font size="5" color="#ffffff" face="arial"><br />Docencia Bases 
+          de Datos <br /><font size="3" color="#ffffff" face="arial">ETSI 
+          Inform&aacute;tica <br />
+          Universidad de M&aacute;laga </font></font></p>
+<font size="5" color="#ffffff" face="arial">      </font></td>
+      <td style="border: medium none ; padding: 0cm 5.4pt; background: navy none repeat scroll 0% 0%; width: 124.65pt; -moz-background-clip: -moz-initial; -moz-background-origin: -moz-initial; -moz-background-inline-policy: -moz-initial;" valign="top" width="125"> <br />
+        
+        <p><font size="3" color="#ffffff" face="arial">
+          Esquemas de Bases de Datos</font><o:p></o:p></p>
+    </td></tr>
+  </tbody></table>
+  </p></center>
+  <br />
+<font size="2" face="arial">
+
+El objetivo de este ejercicio es poner en pr&aacute;ctica todo
+lo aprendido en el curso sobre manipualci&oacute;n de esquemas relacionales. Para
+ello se ha pretendido recrear en el ejercio la informaci&oacute;n y las limitaciones
+de un ejercicio real.<br />
+<br />
+<br />
+1.- Se desea disponer de la informaci&oacute;n necesaria para almacenar los datos
+relativos a los documentos que se guardan en un cierto ordenador. Se dispone para
+ello del siguiente modelo Entidad/Relaci&oacute;n:
+<br>
+<IMG SRC="Graficopaginas.jpg"  BORDER="0">
+
+</font><p></p>
+<p><font size="2" face="arial"><br />
+<br />
+
+En una bases de datos relacional se ha generado el modelo relacional correspondiente
+a dicha informaci&oacute;n. Sin embargo el modelo se corresponde con una 
+versi&oacute;n anterior de &eacute;sta especificaci&oacute;n E/R.
+<br />
+
+Nota: Para generar el modelo relacional utilice este <a href="paginasydocumentos.sql">script sql</a>, pero no lo lea, porque se trata
+de deducir la informaci&oacute;n a partir de las propias tablas del sistema.<br />
+<br />
+<br />
+Deduzca el modelo que ha sido generado a trav&eacute;s del acceso al diccionario
+de datos y realice las correcciones en las tablas para que se corresponda exactamente
+con el modelo Entidad/Relaci&oacute;n anterior. En ning&uacute;n caso debe borrar
+objetos que ya existen para crearlos de nuevo (por ejemplo borrar una tabla a la
+que le falta una restricci&oacute;n y crearla de nuevo con esta restricci&oacute;n
+a&ntilde;adida).<br />
+<br />
+2.- Realice las modificaciones necesarias para que las claves primarias de las tablas
+sean manejadas trav&eacute;s de claves primarias simples y de tipo n&uacute;mero.<br />
+<br />
+3.- Se supone que se quiere realizar la siguiente extensi&oacute;n: En el sistema
+pueden entrar diferentes usuarios y se quiere construir un m&oacute;dulo que permita
+mantener la gesti&oacute;n de usuarios de modo autom&aacute;tico. Los usuarios se
+dan de alta en el sistema aportando su nombre y direcci&oacute;n electr&oacute;nica
+a la direcci&oacute;n alta@hitsystems.com. El sistema les manda a su direcci&oacute;n
+de correo un nombre de usuario (&uacute;nico) y una password (que los usuarios cambiar&aacute;n
+al entrar en el sistema la primera vez). Cuando un usuario crea un nuevo documento,
+se apunta a dicho usuario como due&ntilde;o del mismo y se anota el d&iacute;a y
+hora de dicho evento. Al crear el documento el usuario adem&aacute;s anota qu&eacute;
+usuarios tienen permiso para acceder al documento y con que grado. Hay cuatro grados:
+lectura, a&ntilde;adir, modificaci&oacute;n o borrado. Para cada usuario de este
+grupo guardaremos el instante en que hizo el &uacute;ltimo acceso al documento y
+con qu&eacute; grado.<br />
+<br />
+Debe generar el nuevo modelo Entidad/Relaci&oacute;n y realizar la creaci&oacute;n
+del nuevo esquema conceptual, modificando el esquema ya existente.<br />
+<br />
+</font></p><hr />
+
+<center>
+<font size="2" face="arial">  </font><p></p>
+<font size="2" face="arial">  <table border="0" cellpadding="0" cellspacing="0" height="2">
+    <tbody><tr> 
+      <td style="border: medium none ; padding: 0cm; background: rgb(12, 12, 12) none repeat scroll 0% 0%; width: 295pt; -moz-background-clip: -moz-initial; -moz-background-origin: -moz-initial; -moz-background-inline-policy: -moz-initial;" valign="top" width="295"> 
+        <p align="right"><font size="2" color="#ffffff" face="arial"> <br />
+          M. Enciso & E. Soler</font><o:p></o:p></p>
+      </td>
+      <td style="border: medium none ; padding: 0cm; background: navy none repeat scroll 0% 0%; width: 124.65pt; -moz-background-clip: -moz-initial; -moz-background-origin: -moz-initial; -moz-background-inline-policy: -moz-initial;" valign="top" width="125"> <br /></td>
+      <td width="65"> 
+        <p><a href="http://www.uma.es"><img src="http://www.lcc.uma.es/%7Eenciso/logouma.jpg" valign="top" width="65" border="0" height="57" /> </a>
+      </p></td>
+    </tr>
+  </tbody></table>
+</font></center>
+
+

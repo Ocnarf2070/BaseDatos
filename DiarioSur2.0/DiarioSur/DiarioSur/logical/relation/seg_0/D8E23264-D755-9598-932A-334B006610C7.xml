@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="CALENDARIO" directorySegmentName="seg_0" id="D8E23264-D755-9598-932A-334B006610C7">
+<createdBy>Davih_Polla</createdBy>
+<createdTime>2016-11-12 19:46:03 UTC</createdTime>
+<ownerDesignName>DiarioSur</ownerDesignName>
+<engineerTo>
+<item key="C39EF84B-C518-DB08-17B9-664D5BFF36CC" value="true"/>
+</engineerTo>
+<sourcePk>1CBF5050-CE24-E23E-2FCA-91CD0C980910</sourcePk>
+<identifying>false</identifying>
+<nameOnSource>Contiene</nameOnSource>
+<nameOnTarget>Contenido en</nameOnTarget>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>5CD35376-8C62-016C-C48B-747EC556656B</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>BFA97504-A9B3-4B79-8986-2924F0E0E396</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

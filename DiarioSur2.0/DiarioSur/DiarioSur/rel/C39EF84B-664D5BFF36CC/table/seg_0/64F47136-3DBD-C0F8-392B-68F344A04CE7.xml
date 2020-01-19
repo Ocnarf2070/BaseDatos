@@ -1,0 +1,89 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="64F47136-3DBD-C0F8-392B-68F344A04CE7" name="TIPO_EVENTO">
+<createdBy>Davih_Polla</createdBy>
+<createdTime>2016-12-18 16:22:18 UTC</createdTime>
+<generatorID>1478EE25-ADF1-1CF2-0E29-457D6674B760</generatorID>
+<ownerDesignName>DiarioSur</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Codigo" id="3729D62C-D31B-CB3E-9DA8-BC5DAE3074F9">
+<createdBy>Davih_Polla</createdBy>
+<createdTime>2016-12-18 16:22:18 UTC</createdTime>
+<generatorID>F7C840F0-085A-3D34-BE13-9920088FC27E</generatorID>
+<ownerDesignName>DiarioSur</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Nombre" id="D4DA40B5-4688-5E93-B616-05135BF564E4">
+<createdBy>Davih_Polla</createdBy>
+<createdTime>2016-12-18 16:22:18 UTC</createdTime>
+<generatorID>114EE948-5277-3878-2A57-0229EFDF23F4</generatorID>
+<ownerDesignName>DiarioSur</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Descripción" id="2EA34C43-5221-6FDC-7B18-E3689186A494">
+<createdBy>Davih_Polla</createdBy>
+<createdTime>2016-12-18 16:22:18 UTC</createdTime>
+<generatorID>BBA96C5B-55CD-DF5F-26F4-44A66522C088</generatorID>
+<ownerDesignName>DiarioSur</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="EVENTO_Code" id="50256A11-F7BE-A12E-B02A-FE38A7CEBFF5">
+<createdBy>Davih_Polla</createdBy>
+<createdTime>2016-12-18 16:22:18 UTC</createdTime>
+<generatorID>A4BF1B71-C2C9-DCE1-86AE-540A04A16A53</generatorID>
+<ownerDesignName>DiarioSur</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6DFC46EA-F3C3-1FF8-D7B4-FBA0DBD6A8C6" referredColumn="2FF17111-81A3-2E59-6BC3-F2FBCF2D1055"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="446F348E-DC38-8234-7BEE-88EEBA33F072" name="TIPO_EVENTO_PK">
+<createdBy>Davih_Polla</createdBy>
+<createdTime>2016-12-18 16:22:18 UTC</createdTime>
+<generatorID>58F2B17D-62C9-9748-301F-391FBD69930D</generatorID>
+<ownerDesignName>DiarioSur</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3729D62C-D31B-CB3E-9DA8-BC5DAE3074F9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="160748F8-534A-1665-1980-4FCD3FC1E74E" name="TIPO_EVENTO_EVENTO_FK">
+<createdBy>Davih_Polla</createdBy>
+<createdTime>2016-12-18 16:22:19 UTC</createdTime>
+<generatorID>9BCC1DB4-61E9-4584-BE1B-B51DDC59423A</generatorID>
+<ownerDesignName>DiarioSur</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="50256A11-F7BE-A12E-B02A-FE38A7CEBFF5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

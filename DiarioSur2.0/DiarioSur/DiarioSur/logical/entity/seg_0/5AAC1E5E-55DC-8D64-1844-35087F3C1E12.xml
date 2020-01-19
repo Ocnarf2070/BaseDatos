@@ -1,0 +1,166 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="5AAC1E5E-55DC-8D64-1844-35087F3C1E12" name="USUARIO">
+<createdBy>Davih_Polla</createdBy>
+<createdTime>2016-11-12 18:44:00 UTC</createdTime>
+<ownerDesignName>DiarioSur</ownerDesignName>
+<engineerTo>
+<item key="C39EF84B-C518-DB08-17B9-664D5BFF36CC" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Code" id="B3861484-6DBD-5056-5DAE-90D46452B202">
+<createdBy>Davih_Polla</createdBy>
+<createdTime>2016-11-12 18:57:32 UTC</createdTime>
+<ownerDesignName>DiarioSur</ownerDesignName>
+<engineerTo>
+<item key="C39EF84B-C518-DB08-17B9-664D5BFF36CC" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Nombre" id="DFF144E8-9346-89BF-805D-348D891D5B44">
+<createdBy>Davih_Polla</createdBy>
+<createdTime>2016-11-12 18:57:11 UTC</createdTime>
+<ownerDesignName>DiarioSur</ownerDesignName>
+<engineerTo>
+<item key="C39EF84B-C518-DB08-17B9-664D5BFF36CC" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Password" id="7A15321C-5EE5-410C-059E-5956460F3012">
+<createdBy>Davih_Polla</createdBy>
+<createdTime>2016-11-12 18:58:03 UTC</createdTime>
+<ownerDesignName>DiarioSur</ownerDesignName>
+<engineerTo>
+<item key="C39EF84B-C518-DB08-17B9-664D5BFF36CC" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Informacion" id="C3E41F95-373B-09A1-2DCB-3F39D0A78A51">
+<createdBy>Davih_Polla</createdBy>
+<createdTime>2016-11-12 18:58:10 UTC</createdTime>
+<ownerDesignName>DiarioSur</ownerDesignName>
+<engineerTo>
+<item key="C39EF84B-C518-DB08-17B9-664D5BFF36CC" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Superusuario" id="5D723029-4B4B-EF82-568A-020CD22F4BCA">
+<createdBy>Davih_Polla</createdBy>
+<createdTime>2016-11-12 19:07:09 UTC</createdTime>
+<ownerDesignName>DiarioSur</ownerDesignName>
+<engineerTo>
+<item key="C39EF84B-C518-DB08-17B9-664D5BFF36CC" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="MG" id="D2024920-147C-4125-5806-17E020C400B7">
+<createdBy>Davih_Polla</createdBy>
+<createdTime>2016-11-12 19:35:25 UTC</createdTime>
+<ownerDesignName>DiarioSur</ownerDesignName>
+<engineerTo>
+<item key="C39EF84B-C518-DB08-17B9-664D5BFF36CC" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Code1" id="FF5D5B2B-EE46-1AA1-B84F-C120A67B107E">
+<createdBy>Antonio</createdBy>
+<createdTime>2016-11-13 19:46:53 UTC</createdTime>
+<generatorID>C427404C-4B3D-21B3-0BFA-44E441677F9D</generatorID>
+<ownerDesignName>DiarioSur</ownerDesignName>
+<engineerTo>
+<item key="C39EF84B-C518-DB08-17B9-664D5BFF36CC" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>4B877A35-49D8-4A41-D99F-AAC8E05E2F91</referedAttribute>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Código" id="A354D765-73E1-0705-F9A8-E28FD117637C">
+<createdBy>Antonio</createdBy>
+<createdTime>2016-12-17 18:44:03 UTC</createdTime>
+<generatorID>FD717F63-95AF-8023-96C1-043CB75D24CD</generatorID>
+<ownerDesignName>DiarioSur</ownerDesignName>
+<engineerTo>
+<item key="C39EF84B-C518-DB08-17B9-664D5BFF36CC" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>978AA4CA-001A-EB77-A463-81B654857CE7</referedAttribute>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Código1" id="8D9567E2-37CA-9B0E-D848-48D54379A4D9">
+<createdBy>Antonio</createdBy>
+<createdTime>2016-12-17 18:54:39 UTC</createdTime>
+<generatorID>EC6B7F6E-8265-FCB9-DA3A-074FF0F40DE2</generatorID>
+<ownerDesignName>DiarioSur</ownerDesignName>
+<engineerTo>
+<item key="C39EF84B-C518-DB08-17B9-664D5BFF36CC" value="true"/>
+</engineerTo>
+<referedAttribute>978AA4CA-001A-EB77-A463-81B654857CE7</referedAttribute>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="6113DC72-7C5C-AED1-0484-2C92BD14E1E4" name="USUARIO PK">
+<createdBy>Davih_Polla</createdBy>
+<createdTime>2016-11-12 19:23:18 UTC</createdTime>
+<ownerDesignName>DiarioSur</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="C39EF84B-C518-DB08-17B9-664D5BFF36CC" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>B3861484-6DBD-5056-5DAE-90D46452B202</attributeRef>
+</usedAttributes>
+</identifier>
+<identifier id="5C019454-6AF6-B066-7D8E-6783F974625A" name="NOMBRE_UK">
+<createdBy>Davih_Polla</createdBy>
+<createdTime>2016-11-12 19:50:59 UTC</createdTime>
+<ownerDesignName>DiarioSur</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="C39EF84B-C518-DB08-17B9-664D5BFF36CC" value="false"/>
+</engineerTo>
+<newElementsIDs>DFF144E8-9346-89BF-805D-348D891D5B44</newElementsIDs>
+<usedAttributes>
+<attributeRef>DFF144E8-9346-89BF-805D-348D891D5B44</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

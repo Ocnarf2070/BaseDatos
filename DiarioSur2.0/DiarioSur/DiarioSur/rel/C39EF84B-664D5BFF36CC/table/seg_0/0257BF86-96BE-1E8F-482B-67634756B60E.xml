@@ -1,0 +1,284 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="0257BF86-96BE-1E8F-482B-67634756B60E" name="EVENTO">
+<createdBy>Davih_Polla</createdBy>
+<createdTime>2016-12-18 16:22:18 UTC</createdTime>
+<generatorID>BFA97504-A9B3-4B79-8986-2924F0E0E396</generatorID>
+<ownerDesignName>DiarioSur</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Code" id="2FF17111-81A3-2E59-6BC3-F2FBCF2D1055">
+<createdBy>Davih_Polla</createdBy>
+<createdTime>2016-12-18 16:22:18 UTC</createdTime>
+<generatorID>D1D62CC8-5CA0-9FD3-97DB-99F40C3478E2</generatorID>
+<ownerDesignName>DiarioSur</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Título" id="FC8240F8-893B-982E-8123-59BE7FB9CACB">
+<createdBy>Davih_Polla</createdBy>
+<createdTime>2016-12-18 16:22:18 UTC</createdTime>
+<generatorID>39D64F6D-542E-E2E2-318D-BFEB7FD19D27</generatorID>
+<ownerDesignName>DiarioSur</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Descripcion" id="148E3371-C1EB-6502-85DB-4422E3D74866">
+<createdBy>Davih_Polla</createdBy>
+<createdTime>2016-12-18 16:22:18 UTC</createdTime>
+<generatorID>09AFFC9F-D451-71B6-8C71-89AB8CFC2629</generatorID>
+<ownerDesignName>DiarioSur</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Foto" id="17E0081B-F827-71E3-A91D-4B5A2A89E0AF">
+<createdBy>Davih_Polla</createdBy>
+<createdTime>2016-12-18 16:22:18 UTC</createdTime>
+<generatorID>D42EB70B-6076-FC9B-7784-A6C852D4686E</generatorID>
+<ownerDesignName>DiarioSur</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT010</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Web" id="6E1D491E-1E21-FBBD-E2C7-554BA41C71AE">
+<createdBy>Davih_Polla</createdBy>
+<createdTime>2016-12-18 16:22:18 UTC</createdTime>
+<generatorID>C52D9A3A-67BB-603C-A74B-BDB2D381F271</generatorID>
+<ownerDesignName>DiarioSur</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Puntuación" id="DE3022D1-73B4-D4D7-46AE-759E637DFAD7">
+<createdBy>Davih_Polla</createdBy>
+<createdTime>2016-12-18 16:22:18 UTC</createdTime>
+<generatorID>E9D4019A-F584-3AF8-773B-19E1A347F44E</generatorID>
+<ownerDesignName>DiarioSur</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Contador_MG" id="38FAF34C-B4CF-E65D-39B1-355BEABB906F">
+<createdBy>Davih_Polla</createdBy>
+<createdTime>2016-12-18 16:22:18 UTC</createdTime>
+<generatorID>10F17837-BEA8-6BB6-6098-6CD1BF4052E8</generatorID>
+<ownerDesignName>DiarioSur</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Prog_Infantil" id="1D895DF2-AD76-83D7-4DAF-60745EA5F52E">
+<createdBy>Davih_Polla</createdBy>
+<createdTime>2016-12-18 16:22:18 UTC</createdTime>
+<generatorID>73EA350E-3BA9-941E-3D0B-1AE280EE93F6</generatorID>
+<ownerDesignName>DiarioSur</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Precios" id="54D97660-AC30-F8B9-AD30-FE0E10EE0470">
+<createdBy>Davih_Polla</createdBy>
+<createdTime>2016-12-18 16:22:18 UTC</createdTime>
+<generatorID>E081B751-0624-37A6-180F-6AF8BD53AD56</generatorID>
+<ownerDesignName>DiarioSur</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Autor" id="133D4137-EF93-3A50-377F-F3CFE6C40AF6">
+<createdBy>Davih_Polla</createdBy>
+<createdTime>2016-12-18 16:22:18 UTC</createdTime>
+<generatorID>BDE5C06A-0684-CCD1-B2EC-C3D8E718B1B2</generatorID>
+<ownerDesignName>DiarioSur</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Fecha_Inicio" id="5E5A2982-C488-F2D4-C196-28450A4F42B5">
+<createdBy>Davih_Polla</createdBy>
+<createdTime>2016-12-18 16:22:18 UTC</createdTime>
+<generatorID>DAD049D6-1C19-56BE-D9C9-19CA2C52CC89</generatorID>
+<ownerDesignName>DiarioSur</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Fecha_Fin" id="63A6649B-297F-F09B-1D63-6017D950C852">
+<createdBy>Davih_Polla</createdBy>
+<createdTime>2016-12-18 16:22:18 UTC</createdTime>
+<generatorID>D1C7BA4C-09DF-D7BC-D812-D9467F20745C</generatorID>
+<ownerDesignName>DiarioSur</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PERIODISTA_Codigo" id="A0AF8D0E-3AB6-48D3-1865-2524D745BD87">
+<createdBy>Davih_Polla</createdBy>
+<createdTime>2016-12-18 16:22:18 UTC</createdTime>
+<generatorID>FE5F686F-B267-CBF0-6E85-13936C81D7BC</generatorID>
+<ownerDesignName>DiarioSur</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F58AD911-6388-C422-C357-AB680E6C872D" referredColumn="B3F3BA05-0BAC-5698-E7F6-9786499E0C47"/>
+</associations>
+</Column>
+<Column name="CALENDARIO_Code" id="D33AC921-3D28-7659-1A8B-0EFDFB799C21">
+<createdBy>Davih_Polla</createdBy>
+<createdTime>2016-12-18 16:22:18 UTC</createdTime>
+<generatorID>82CB3649-3EE6-EBF8-A9AE-FDB9672F9804</generatorID>
+<ownerDesignName>DiarioSur</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C9629B22-6623-5A72-7926-E90CB08FF7D9" referredColumn="FD0DB65E-7BFD-EAD8-1652-9F84170F12BE"/>
+</associations>
+</Column>
+<Column name="EVENTO_Code" id="C5299A8E-DC2C-CD63-00D8-031E362080F8">
+<createdBy>Davih_Polla</createdBy>
+<createdTime>2016-12-18 16:22:18 UTC</createdTime>
+<generatorID>0A23D549-E141-5CEB-DB98-61ED0892D28C</generatorID>
+<ownerDesignName>DiarioSur</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8ABC8036-0C00-C1B4-8756-1C566BEF0FAE" referredColumn="2FF17111-81A3-2E59-6BC3-F2FBCF2D1055"/>
+</associations>
+</Column>
+<Column name="LOCALIZACIÓN_Código" id="F174E7FD-69F2-E76F-527D-C5149DC12DFB">
+<createdBy>Davih_Polla</createdBy>
+<createdTime>2016-12-18 16:22:18 UTC</createdTime>
+<generatorID>CF0D97D2-5068-D962-924B-16AC2E1BA9C3</generatorID>
+<ownerDesignName>DiarioSur</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5DE75484-495C-ED57-1AE5-E529E472FEAA" referredColumn="89EAC715-D62F-4961-4D25-82B49DAD76F5"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C6182A02-856A-C7FC-B250-351CDBE71813" name="EVENTO_PK">
+<createdBy>Davih_Polla</createdBy>
+<createdTime>2016-12-18 16:22:18 UTC</createdTime>
+<generatorID>18C42188-E6E0-5F84-6409-D4BC01982FA3</generatorID>
+<ownerDesignName>DiarioSur</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2FF17111-81A3-2E59-6BC3-F2FBCF2D1055"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="64FCDE92-7C44-FCA2-79F8-4CC4F7B6D4F7" name="EVENTO_Título_UN">
+<createdBy>Davih_Polla</createdBy>
+<createdTime>2016-12-18 16:22:18 UTC</createdTime>
+<generatorID>83A7C1FB-4AAD-4C0D-7323-3161E0C4418E</generatorID>
+<ownerDesignName>DiarioSur</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FC8240F8-893B-982E-8123-59BE7FB9CACB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="FB856F8D-13F5-BF59-03C7-954C8EF65A25" name="EVENTO_EVENTO_FK">
+<createdBy>Davih_Polla</createdBy>
+<createdTime>2016-12-18 16:22:18 UTC</createdTime>
+<generatorID>8ABF9C37-D269-8614-B10D-9E21547D0F58</generatorID>
+<ownerDesignName>DiarioSur</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C5299A8E-DC2C-CD63-00D8-031E362080F8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="746C4628-3ED8-10F6-048E-6B72E7C79BB7" name="EVENTO_CALENDARIO_FK">
+<createdBy>Davih_Polla</createdBy>
+<createdTime>2016-12-18 16:22:18 UTC</createdTime>
+<generatorID>D8E23264-D755-9598-932A-334B006610C7</generatorID>
+<ownerDesignName>DiarioSur</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D33AC921-3D28-7659-1A8B-0EFDFB799C21"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="19004C7C-1BA9-6D4F-A7E1-2120CBC6CDF2" name="EVENTO_PERIODISTA_FK">
+<createdBy>Davih_Polla</createdBy>
+<createdTime>2016-12-18 16:22:18 UTC</createdTime>
+<generatorID>A639F211-5167-AEA1-8F63-9C02C4A32DF8</generatorID>
+<ownerDesignName>DiarioSur</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A0AF8D0E-3AB6-48D3-1865-2524D745BD87"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="EC6CEBAB-C02E-D777-2C56-03E75B432F1D" name="EVENTO_LOCALIZACIÓN_FK">
+<createdBy>Davih_Polla</createdBy>
+<createdTime>2016-12-18 16:22:19 UTC</createdTime>
+<generatorID>BAA152F8-FD37-B1C7-BF4F-12B67AED5D2F</generatorID>
+<ownerDesignName>DiarioSur</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F174E7FD-69F2-E76F-527D-C5149DC12DFB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

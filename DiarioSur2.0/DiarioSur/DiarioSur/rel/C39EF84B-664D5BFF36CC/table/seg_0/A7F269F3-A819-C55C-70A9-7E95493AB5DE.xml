@@ -1,0 +1,73 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A7F269F3-A819-C55C-70A9-7E95493AB5DE" name="Relation_17">
+<createdBy>Davih_Polla</createdBy>
+<createdTime>2016-12-18 16:22:19 UTC</createdTime>
+<ownerDesignName>DiarioSur</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ALERTA_Código" id="89F558A4-D23E-BB3E-52D7-F6E291BB69F4">
+<createdBy>Davih_Polla</createdBy>
+<createdTime>2016-12-18 16:22:19 UTC</createdTime>
+<ownerDesignName>DiarioSur</ownerDesignName>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B0A64D3C-3238-4ACA-1EDB-B14CCD2B8826" referredColumn="8C9E9B6E-3FCC-4735-DC35-AB53F26B8A3A"/>
+</associations>
+</Column>
+<Column name="EVENTO_Code" id="660CDBBC-6193-297E-9FD8-B6617391D777">
+<createdBy>Davih_Polla</createdBy>
+<createdTime>2016-12-18 16:22:19 UTC</createdTime>
+<ownerDesignName>DiarioSur</ownerDesignName>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9160374D-6017-92D2-1FE4-55015C321090" referredColumn="2FF17111-81A3-2E59-6BC3-F2FBCF2D1055"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F96A6BD9-EBA0-BED8-16AB-9272E4F011AE" name="Relation_17_PK">
+<createdBy>Davih_Polla</createdBy>
+<createdTime>2016-12-18 16:22:19 UTC</createdTime>
+<ownerDesignName>DiarioSur</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="89F558A4-D23E-BB3E-52D7-F6E291BB69F4"/>
+<colUsage columnID="660CDBBC-6193-297E-9FD8-B6617391D777"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E6B789F4-6980-7A4A-D391-F4168D073CED" name="FK_ASS_13">
+<createdBy>Davih_Polla</createdBy>
+<createdTime>2016-12-18 16:22:19 UTC</createdTime>
+<generatorID>9ADC0CFF-D7F4-C9CB-2C70-6B0A1EC69123</generatorID>
+<ownerDesignName>DiarioSur</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="89F558A4-D23E-BB3E-52D7-F6E291BB69F4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="DEDC648F-0D0F-BA8E-827A-A2D60D56B0BB" name="FK_ASS_14">
+<createdBy>Davih_Polla</createdBy>
+<createdTime>2016-12-18 16:22:19 UTC</createdTime>
+<generatorID>9ADC0CFF-D7F4-C9CB-2C70-6B0A1EC69123</generatorID>
+<ownerDesignName>DiarioSur</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="660CDBBC-6193-297E-9FD8-B6617391D777"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

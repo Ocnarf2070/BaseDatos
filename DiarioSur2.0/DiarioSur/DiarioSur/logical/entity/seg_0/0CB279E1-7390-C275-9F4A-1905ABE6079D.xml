@@ -1,0 +1,99 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="0CB279E1-7390-C275-9F4A-1905ABE6079D" name="PERIODISTA">
+<createdBy>Davih_Polla</createdBy>
+<createdTime>2016-11-12 18:44:17 UTC</createdTime>
+<ownerDesignName>DiarioSur</ownerDesignName>
+<engineerTo>
+<item key="C39EF84B-C518-DB08-17B9-664D5BFF36CC" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Codigo" id="61083971-4CC6-3A71-342A-E05A53918122">
+<createdBy>Davih_Polla</createdBy>
+<createdTime>2016-11-12 18:55:44 UTC</createdTime>
+<ownerDesignName>DiarioSur</ownerDesignName>
+<engineerTo>
+<item key="C39EF84B-C518-DB08-17B9-664D5BFF36CC" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Nombre" id="8CDB806B-8E55-7C6A-7424-136A1B389CFD">
+<createdBy>Davih_Polla</createdBy>
+<createdTime>2016-11-12 18:55:39 UTC</createdTime>
+<ownerDesignName>DiarioSur</ownerDesignName>
+<engineerTo>
+<item key="C39EF84B-C518-DB08-17B9-664D5BFF36CC" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Informacion" id="0F62AD84-DB16-2CB6-74FC-6C24CCE2B9D9">
+<createdBy>Davih_Polla</createdBy>
+<createdTime>2016-11-12 18:56:50 UTC</createdTime>
+<ownerDesignName>DiarioSur</ownerDesignName>
+<engineerTo>
+<item key="C39EF84B-C518-DB08-17B9-664D5BFF36CC" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Password" id="3DA58AFC-909E-7860-3E8B-FF639AF1B230">
+<createdBy>Davih_Polla</createdBy>
+<createdTime>2016-11-12 18:59:26 UTC</createdTime>
+<ownerDesignName>DiarioSur</ownerDesignName>
+<engineerTo>
+<item key="C39EF84B-C518-DB08-17B9-664D5BFF36CC" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="45AB18B8-1C54-3E14-6927-BBE5844B2502" name="PERIODISTA PK">
+<createdBy>Davih_Polla</createdBy>
+<createdTime>2016-11-12 19:22:54 UTC</createdTime>
+<ownerDesignName>DiarioSur</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="C39EF84B-C518-DB08-17B9-664D5BFF36CC" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>61083971-4CC6-3A71-342A-E05A53918122</attributeRef>
+</usedAttributes>
+</identifier>
+<identifier id="429382AE-A60E-7EE0-5C97-0F160BEBE812" name="NOMBRE_UK">
+<createdBy>Davih_Polla</createdBy>
+<createdTime>2016-11-12 19:51:24 UTC</createdTime>
+<ownerDesignName>DiarioSur</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="C39EF84B-C518-DB08-17B9-664D5BFF36CC" value="false"/>
+</engineerTo>
+<newElementsIDs>8CDB806B-8E55-7C6A-7424-136A1B389CFD</newElementsIDs>
+<usedAttributes>
+<attributeRef>8CDB806B-8E55-7C6A-7424-136A1B389CFD</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

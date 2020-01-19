@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="ANTERIORIDAD" directorySegmentName="seg_0" id="8ABF9C37-D269-8614-B10D-9E21547D0F58">
+<createdBy>Davih_Polla</createdBy>
+<createdTime>2016-11-12 19:46:40 UTC</createdTime>
+<ownerDesignName>DiarioSur</ownerDesignName>
+<engineerTo>
+<item key="C39EF84B-C518-DB08-17B9-664D5BFF36CC" value="true"/>
+</engineerTo>
+<targetPk>18C42188-E6E0-5F84-6409-D4BC01982FA3</targetPk>
+<identifying>false</identifying>
+<nameOnSource>Precede</nameOnSource>
+<optionalSource>true</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>BFA97504-A9B3-4B79-8986-2924F0E0E396</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>BFA97504-A9B3-4B79-8986-2924F0E0E396</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

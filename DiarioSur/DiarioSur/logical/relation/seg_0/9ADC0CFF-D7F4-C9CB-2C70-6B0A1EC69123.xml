@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_17" directorySegmentName="seg_0" id="9ADC0CFF-D7F4-C9CB-2C70-6B0A1EC69123">
+<createdBy>Antonio</createdBy>
+<createdTime>2016-12-17 19:26:37 UTC</createdTime>
+<ownerDesignName>DiarioSur</ownerDesignName>
+<engineerTo>
+<item key="C39EF84B-C518-DB08-17B9-664D5BFF36CC" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<nameOnTarget>Salta como</nameOnTarget>
+<optionalSource>true</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>FA34B942-0DEA-BA60-B677-179126594569</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>BFA97504-A9B3-4B79-8986-2924F0E0E396</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

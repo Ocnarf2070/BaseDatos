@@ -1,0 +1,72 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="47701F75-90E4-48D2-D036-3DBCAA6F9F92" name="LOCALIZACIÓN">
+<createdBy>Davih_Polla</createdBy>
+<createdTime>2016-12-18 16:22:18 UTC</createdTime>
+<generatorID>3DD822DC-BD0D-3FE3-E754-E798D91B619E</generatorID>
+<ownerDesignName>DiarioSur</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Código" id="89EAC715-D62F-4961-4D25-82B49DAD76F5">
+<createdBy>Davih_Polla</createdBy>
+<createdTime>2016-12-18 16:22:18 UTC</createdTime>
+<generatorID>978AA4CA-001A-EB77-A463-81B654857CE7</generatorID>
+<ownerDesignName>DiarioSur</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Lugar" id="6F2306EA-C564-F8E1-337C-4457449BE579">
+<createdBy>Davih_Polla</createdBy>
+<createdTime>2016-12-18 16:22:18 UTC</createdTime>
+<generatorID>5ED772EF-9FDE-CB07-97CB-DD1B80330240</generatorID>
+<ownerDesignName>DiarioSur</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Nota" id="5ED3F3C5-1837-DEA0-B068-6E73FD37C80C">
+<createdBy>Davih_Polla</createdBy>
+<createdTime>2016-12-18 16:22:18 UTC</createdTime>
+<generatorID>151D1356-F0D7-9748-3C26-0CA24B996DA7</generatorID>
+<ownerDesignName>DiarioSur</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="900EFB97-2F6F-653C-B4A4-F44A6D89905F" name="LOCALIZACIÓN_PK">
+<createdBy>Davih_Polla</createdBy>
+<createdTime>2016-12-18 16:22:18 UTC</createdTime>
+<generatorID>04263053-75A7-B2DC-BCF8-3A293BA3425B</generatorID>
+<ownerDesignName>DiarioSur</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="89EAC715-D62F-4961-4D25-82B49DAD76F5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6B8E3179-0FFD-50EB-8348-B0DB56CA6F78" name="LOCALIZACIÓN_Lugar_UN">
+<createdBy>Davih_Polla</createdBy>
+<createdTime>2016-12-18 16:22:18 UTC</createdTime>
+<generatorID>3F78E0C1-98DA-667C-AAC7-13EB856A3B47</generatorID>
+<ownerDesignName>DiarioSur</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6F2306EA-C564-F8E1-337C-4457449BE579"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
